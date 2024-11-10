@@ -1,0 +1,26 @@
+
+version: 2
+
+sources:
+  - name: cost-value
+    database: "cost-value"
+    schema: raw        # Chỉ định schema
+    tables:
+      - name: Medicare_Hospital_Spending_Per_Patient-Hospital.csv  # Tên bảng phải chính xác
+        description: " "
+      - name: Payment_and_Value_of_Care-Hospital.csv # Tên bảng phải chính xác
+        description: " "
+
+
+models:
+  - name: medicare_spending_per_beneficiary
+    description: " "
+  - name: payment
+    description: " "
+  - name: value
+    description: " "
+
+  
+
+
+

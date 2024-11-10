@@ -1,0 +1,25 @@
+
+version: 2
+
+sources:
+  - name: clinical-outcomes
+    database: "clinical-outcomes"
+    schema: raw        # Chỉ định schema
+    tables:
+      - name: Complications_and_Deaths-Hospital.csv  # Tên bảng phải chính xác
+        description: " "
+      - name: Healthcare_Associated_Infections-Hospital.csv  # Tên bảng phải chính xác
+        description: " "
+
+
+models:
+  - name: complications
+    description: " "
+  - name: deaths
+    description: " "
+  - name: infections
+    description: " "
+  
+
+
+

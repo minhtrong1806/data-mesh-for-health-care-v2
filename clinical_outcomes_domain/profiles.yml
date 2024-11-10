@@ -1,0 +1,15 @@
+clinical_outcomes:
+  outputs:
+    dev:
+      dremio_space: clinical_outcomes
+      dremio_space_folder: model
+      object_storage_source: clinical-outcomes
+      object_storage_path: data_product
+      password: ClinicalOutcomes@123
+      port: 9047
+      software_host: dremio
+      threads: 1
+      type: dremio
+      use_ssl: false
+      user: clinical_outcomes
+  target: dev

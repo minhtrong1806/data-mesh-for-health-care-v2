@@ -1,0 +1,14 @@
+dremio account
+|-admin
+|   |- username: minioadmin
+|   |- password: minioadmin
+|
+|-domain: clinical-outcomes
+|   |- email: clinicaloutcomes@gmail.com
+|	|- username: clinical_outcomes
+|	|- password: ClinicalOutcomes@123
+|
+|-domain: cost-value
+|	|-email: costvalue@gmail.com
+|	|-username: cost_value
+|	|-password: CostValue@123

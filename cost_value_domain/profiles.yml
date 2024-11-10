@@ -1,0 +1,15 @@
+cost_value:
+  outputs:
+    dev:
+      dremio_space: cost_value
+      dremio_space_folder: model
+      object_storage_path: data_product
+      object_storage_source: cost-value
+      password: CostValue@123
+      port: 9047
+      software_host: dremio
+      threads: 1
+      type: dremio
+      use_ssl: false
+      user: cost_value
+  target: dev
